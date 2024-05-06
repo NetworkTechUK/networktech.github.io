@@ -16,7 +16,7 @@ timezone: Europe/London
 
 title: Network Tech UK # the main title
 
-tagline: Network Tech UK # it will display as the sub-title
+tagline: Networks/Tech/Gadgets # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Network Tech UK
@@ -28,18 +28,18 @@ url: "https://networktech.uk"
 github:
   username: NetworkTechUK # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+#username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Network Tech
-  email: info@networktech.uk # change to your email address
+  email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # https://twitter.com/username # change to your twitter homepage
+    - https://github.com/NetworkTechUK # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -73,7 +73,7 @@ theme_mode: light
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/network_tech.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
